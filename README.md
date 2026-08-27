@@ -68,10 +68,7 @@ healthcare-powerbi-dashboard/
 
 ### 2. Análises Operacionais & Médicas
 
-* **Top 10 Hospitais:** Ranking das instituições com visual limpo e sem poluição de eixos.
-
-
-* **Top Atendimentos por Médico:** Ranking dos profissionais com maior volume de internações (liderado por *Smith* com 410 e *Johnson* com 314).
+* **Top 10 Hospitais:** Ranking das instituições com visual limpo e sem poluição de eixos, liderado pelo *Hospital Smith* com 410 e *Hospital Johnson* com 314)
 
 
 * **Top 3 Condições Médicas:** Concentração dos diagnósticos mais comuns: *Diabetes* (10,97 Mil), *Obesity* (10,94 Mil) e *Hypertension* (10,90 Mil).
