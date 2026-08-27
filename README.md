@@ -92,7 +92,7 @@ healthcare-powerbi-dashboard/
 ## Principais Desafios & Soluções Técnicas
 
 1. **Tratamento de Entidades no Power Query:**
-* *Problema:* Sufixos corporativos (`Inc`, `Group`, `Ltd`, `PLC`) geravam entidades duplicadas e distorciam a contagem de hospitais.
+* *Problema:* Sufixos corporativos (`Inc`, `Group`, `Ltd`, `PLC`) geravam entidades duplicadas e distorciam a contagem de hospitais. Também foi adicionado o prefixo "Hosp." antes dos nomes dos hospitais para ficar mais claro o entendimento do dashboard.
 * *Solução:* Limpeza de texto via **Substituição de Valores** e **Lapar (Trim)** no Power Query para unificar o cadastro.
 
 
