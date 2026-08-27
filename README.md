@@ -93,7 +93,7 @@ healthcare-powerbi-dashboard/
 
 1. **Tratamento de Entidades no Power Query:**
 * *Problema:* Sufixos corporativos (`Inc`, `Group`, `Ltd`, `PLC`) geravam entidades duplicadas e distorciam a contagem de hospitais. Também foi adicionado o prefixo "Hosp." antes dos nomes dos hospitais para ficar mais claro o entendimento do dashboard.
-* *Solução:* Limpeza de texto via **Substituição de Valores** e **Lapar (Trim)** no Power Query para unificar o cadastro.
+* *Solução:* Limpeza de texto via **Substituição de Valores** e **Lapar (Trim)** no Power Query para unificar o cadastro e adição de **prefixo** na coluna Hospital via ferramenta de transformar no Power Query.
 
 
 2. **Eliminação de Registros `(Em branco)`:**
@@ -111,9 +111,9 @@ healthcare-powerbi-dashboard/
 
 ## Fórmulas DAX Destacadas
 
-* **Faturamento Total:**
+* **Gasto Total dos Pacientes:**
 ```dax
-Faturamento Total = SUM(fato_admissoes[Billing_Amount])
+Gasto Total dos Pacientes = SUM(fato_admissoes[Billing_Amount])
 
 ```
 
