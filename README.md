@@ -1,6 +1,4 @@
----
 
-```markdown
 # Dashboard de Saúde & Gestão Hospitalar — Power BI
 
 ## Visão Geral do Projeto
