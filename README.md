@@ -4,7 +4,7 @@
 ## Visão Geral do Projeto
 Este repositório contém um dashboard analítico interativo para **Gestão Hospitalar e Saúde (Healthcare Analytics)** desenvolvido no **Power BI Desktop**, integrado a um banco de dados **MySQL** local via **XAMPP**.
 
-O objetivo principal foi transformar um conjunto de dados desnormalizado de atendimentos em um **Modelo Estrela (Star Schema)** limpo e performático, fornecendo visibilidade sobre faturamento hospitalar, volume de atendimentos, perfis demográficos e rankings operacionais.
+O objetivo principal foi transformar um conjunto de dados desnormalizado de atendimentos em um **Modelo Estrela (Star Schema)** limpo e performático, fornecendo visibilidade sobre gastos, volume de atendimentos, perfis demográficos e rankings operacionais.
 
 ---
 
