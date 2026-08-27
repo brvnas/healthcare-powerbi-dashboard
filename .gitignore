@@ -1,0 +1,3 @@
+*.pbix.auto
+*.tmp
+*.env
